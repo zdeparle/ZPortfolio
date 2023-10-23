@@ -1,0 +1,40 @@
+#hinge-latch-project {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 20px; /* Adjusted for a bigger padding */
+    margin: 20px auto; /* Adjusted to center the section */
+    max-width: 800px; /* Or your preferred maximum width */
+    text-align: center; /* Center the text and inline or inline-block elements */
+}
+
+#hinge-latch-project .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the title and logo within the title container */
+}
+
+#hinge-latch-project img {
+    width: 60px; /* Adjusted for a bigger logo */
+    height: auto;
+    margin-right: 15px;
+}
+
+#hinge-latch-project model-viewer {
+    width: 100%; /* Take up the full width of its container */
+    height: 500px; /* Adjusted for a bigger Model Viewer */
+    margin-top: 20px; /* Add some spacing between the title and the Model Viewer */
+}
+@media (max-width: 768px) {
+    #hinge-latch-project {
+        padding: 10px;
+    }
+    
+    #hinge-latch-project img {
+        width: 40px;
+    }
+
+    #hinge-latch-project model-viewer {
+        height: 300px;
+    }
+}
+

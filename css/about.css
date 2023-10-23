@@ -1,0 +1,18 @@
+#about-me {
+    background-color: #f4f4f4; /* Or any color that suits your design */
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+}
+
+#about-me h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+}
+
+#about-me p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+}

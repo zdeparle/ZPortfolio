@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light Background for the page */
+}
+
+main {
+  padding: 20px;
+}
+
+/* Section Styles */
+.education-entry {
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 20px; 
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px; 
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.title-container img {
+  width: 50px; 
+  height: 50px;
+  margin-right: 10px; 
+}
+
+h2 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+p, ul {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 40px;
+}
+
+/* Duke Section Styles */
+#duke {
+  background-color: #00539B; /* Duke Blue */
+  color: #fff; /* White Text */
+}
+
+/* Sidwell Section Styles */
+#sidwell {
+  background-color: #800000; /* Maroon */
+  color: #fff; /* White Text */
+  border: 1px solid #808080; /* Grey Border */
+}

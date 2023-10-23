@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Consider adding a light background color for the body for better visual separation of sections */
+}
+
+nav ul {
+  background-color: #333;
+  color: white;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  padding: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Section Styles */
+section {
+  border-radius: 15px; /* Rounded Corners */
+  overflow: hidden; /* Clip the content to border-radius */
+  margin-bottom: 20px; /* Space between sections */
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1); /* Gradual Shadow */
+  background-color: #fff; /* Default background color */
+  padding: 20px; /* Inner padding */
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.title-container img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+/* Specific Sections */
+#tesla {
+  background: linear-gradient(160deg, #e82127, #000); /* Optional Gradient Background */
+  color: #fff;
+}
+
+#general-motors {
+  background-color: #1351d8;
+  color: #fff;
+}
+
+#ornl {
+  background-color: #007833;
+  color: #fff;
+}
+
+#nih {
+  background-color: #e8e8e8;
+  color: #000;
+}
+
+#gall-group-lab {
+  background-color: #4b9cd3;
+  color: #fff;
+}
+
+/* Further refinements and responsiveness can be added as needed */
